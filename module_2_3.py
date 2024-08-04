@@ -3,7 +3,7 @@ number = 0
 i = 0
 while i<len(my_list):
     if my_list[i] > number:
-        print(my_list[i])
+        print(my_list[0:7][i])
     i+=1
 
 
