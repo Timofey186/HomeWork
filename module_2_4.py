@@ -7,15 +7,16 @@ for number in numbers:
     if number == 1:
         continue
     is_prime = True
-    for i in range (2, number):
-        if number % i == 1:
+    for i in range(2, number):
+        if number % i == 0:
             is_prime = False
-        break
+            break
     if is_prime:
         primes.append(number)
     else:
         not_primes.append(number)
-print('Primes:', primes)
-print('Not_primes:', not_primes)
+
+print("Primes:", primes)
+print("Not Primes:", not_primes)
 
 
